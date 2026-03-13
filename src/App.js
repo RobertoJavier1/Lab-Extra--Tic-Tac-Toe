@@ -1,8 +1,9 @@
 import { useState } from 'react';
 
 function Square({value, onSquareClick}) {
+  const colorClass = value === 'X' ? 'square square-x' : value === 'O' ? 'square square-o' : 'square';
   return (
-    <button className="square" onClick={onSquareClick}>
+    <button className={colorClass} onClick={onSquareClick}>
       {value}
     </button>
   );
@@ -88,6 +89,7 @@ export default function Game() {
         <Board xIsNext={xIsNext} squares={currentSquares} onPlay={handlePlay} />
       </div>
       <div className="game-info">
+        <h3>History</h3>
         <ol>{moves}</ol>
       </div>
     </div>
