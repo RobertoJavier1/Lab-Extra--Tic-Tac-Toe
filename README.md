@@ -4,7 +4,7 @@ Laboratorio desarrollado siguiendo el tutorial oficial de React: [Tutorial: Tic-
 Se agregó estilo personalizado usando CSS para mejorar la apariencia visual del juego.
 
 ##Video explicación
-[Ver explicación del proyecto]https://youtu.be/sRZQ0xVRxUs
+https://youtu.be/sRZQ0xVRxUs
 
 ## Cómo correr el proyecto
 ```bash
