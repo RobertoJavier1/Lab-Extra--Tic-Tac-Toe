@@ -13,4 +13,4 @@ npm start
 ```
 
 ## Navegador
-Probado con [Brave Browser](https://brave.com/).
+Probado con Brave Browser
